@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-main{
+main {
     padding: 36px;
 }
 
@@ -21,7 +21,7 @@ main{
 }
 
 .header--image {
-    height: 200%;
+    height: 100%;
     margin-right: 6px;
 }
 
@@ -35,28 +35,29 @@ main{
     font-weight: 500;
 }
 
-.form{
+.form {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap: 17px;
 }
 
-.form--inputs{
+.form--input {
     font-family: "Karla", sans-serif;
     border-radius: 5px;
     border: 1px solid #D5D4D8;
     text-indent: 5px;
-
 }
 
-.form--button{
-    grid-column: 1/-1;
+.form--button {
+    grid-column: 1 / -1;
     font-family: "Karla", sans-serif;
     border-radius: 5px;
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     color: white;
     border: none;
     cursor: pointer;
-
 }
 
+.meme--image {
+    max-width: 100%;
+}
